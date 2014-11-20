@@ -6,8 +6,8 @@ module.exports = {
 		title: 'PataFutbol - Development Environment'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+		clientID: process.env.FACEBOOK_ID || '990185577663453',
+		clientSecret: process.env.FACEBOOK_SECRET || '8f84a524aa05de840ca244dc6b2690e7',
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {
@@ -16,8 +16,8 @@ module.exports = {
 		callbackURL: '/auth/twitter/callback'
 	},
 	google: {
-		clientID: process.env.GOOGLE_ID || 'APP_ID',
-		clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
+		clientID: process.env.GOOGLE_ID || '990341586719-lk8091e37l1nutddn9gnvktgs5s4654o.apps.googleusercontent.com',
+		clientSecret: process.env.GOOGLE_SECRET || 'Ndln728niguoi-UVYBDWpPsF',
 		callbackURL: '/auth/google/callback'
 	},
 	linkedin: {

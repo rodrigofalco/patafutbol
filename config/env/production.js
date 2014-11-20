@@ -24,8 +24,8 @@ module.exports = {
 		js: 'public/dist/application.min.js'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+		clientID: process.env.FACEBOOK_ID || '990185577663453',
+		clientSecret: process.env.FACEBOOK_SECRET || '8f84a524aa05de840ca244dc6b2690e7',
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {
@@ -34,8 +34,8 @@ module.exports = {
 		callbackURL: '/auth/twitter/callback'
 	},
 	google: {
-		clientID: process.env.GOOGLE_ID || 'APP_ID',
-		clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
+		clientID: process.env.GOOGLE_ID || '91896182585-m6far2qgd5f18ncrc3ubmtoikhum5mj7.apps.googleusercontent.com',
+		clientSecret: process.env.GOOGLE_SECRET || 'lTJ_eVCCYlF1_CoYj8UUe169',
 		callbackURL: '/auth/google/callback'
 	},
 	linkedin: {

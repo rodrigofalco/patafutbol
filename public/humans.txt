@@ -3,13 +3,16 @@
 
 # TEAM
 
+	Rodrigo Falco -- Developer -- zocket78
     <name> -- <role> -- <twitter>
 
 # THANKS
 
+	My Mom
     <name>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr, Angular
+    NodeJs, Express, Mongoose
