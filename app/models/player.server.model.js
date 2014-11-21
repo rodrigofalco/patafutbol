@@ -16,6 +16,12 @@ var PlayerSchema = new Schema({
 		required: 'Please fill Player name',
 		trim: true
 	},
+	nick: {
+		type: String,
+		default: '',
+		required: 'Please fill your nickname',
+		trim: true
+	},
 	created: {
 		type: Date,
 		default: Date.now

@@ -30,6 +30,7 @@ describe('Player Model Unit Tests:', function() {
 		user.save(function() { 
 			player = new Player({
 				name: 'Player Name',
+				nick: 'The killer',
 				user: user
 			});
 

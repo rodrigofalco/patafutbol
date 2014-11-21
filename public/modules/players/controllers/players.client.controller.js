@@ -9,7 +9,8 @@ angular.module('players').controller('PlayersController', ['$scope', '$statePara
 		$scope.create = function() {
 			// Create new Player object
 			var player = new Players ({
-				name: this.name
+				name: this.name,
+				nick: this.nick
 			});
 
 			// Redirect after save
@@ -18,6 +19,7 @@ angular.module('players').controller('PlayersController', ['$scope', '$statePara
 
 				// Clear form fields
 				$scope.name = '';
+				$scope.nick = '';
 			}, function(errorResponse) {
 				$scope.error = errorResponse.data.message;
 			});

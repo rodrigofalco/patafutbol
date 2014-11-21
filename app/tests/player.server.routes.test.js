@@ -38,7 +38,8 @@ describe('Player CRUD tests', function() {
 		// Save a user to the test db and create new Player
 		user.save(function() {
 			player = {
-				name: 'Player Name'
+				name: 'Player Name',
+				nick: 'Destroyer'
 			};
 
 			done();
