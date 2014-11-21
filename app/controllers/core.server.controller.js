@@ -1,6 +1,6 @@
 'use strict';
 var mongoose = require('mongoose');
-var Player = mongoose.model('Player', { name: String, nick: String });
+//var Player = mongoose.model('Player', { name: String, nick: String });
 
 /**
  * Index html.
@@ -19,6 +19,7 @@ exports.index = function(req, res) {
 * Temporal controller that returns players json.
 */
 exports.players = function(req, res) {
+	/*
 	Player.find(function (err, players) {
 	  if (err) { 
 	  	console.error(err);
@@ -27,4 +28,5 @@ exports.players = function(req, res) {
 	  //console.log(players);
 	  res.send({ players: players });
 	});
+*/
 };
